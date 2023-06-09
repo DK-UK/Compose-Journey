@@ -90,7 +90,6 @@ class MainActivity : ComponentActivity() {
 
                 IconButton(onClick = { /*TODO*/ },
                     ) {
-                    Icon(imageVector = Icons.Filled.Expand, contentDescription = )
                 }
             }
         }
