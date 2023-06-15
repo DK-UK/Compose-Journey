@@ -10,7 +10,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.myapplication.registrationDemo.registrationDemo
+import com.example.myapplication.sideEffectsDemo.sideEffectDemo
 import com.example.myapplication.wellness.ui.theme.MyApplicationTheme
 
 class MyWellnessApp : ComponentActivity() {
@@ -23,7 +23,7 @@ class MyWellnessApp : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                   registrationDemo()
+                   sideEffectDemo()
                 }
             }
         }
@@ -49,6 +49,6 @@ fun wellnessScreen(
 @Composable
 fun GreetingPreview() {
     MyApplicationTheme {
-       registrationDemo()
+       sideEffectDemo()
     }
 }
